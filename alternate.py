@@ -22,7 +22,7 @@ def y2s(t):
     return t*31556952
 #pressure
 def atm2pa(p):
-    return t*101325
+    return p*101325
 #temperature
 def f2k(t):
     return (t+459.67)*5/9
