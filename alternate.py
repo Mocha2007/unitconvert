@@ -5,12 +5,12 @@ from math import pi
 def mih2ms(v):
     return v*1397/3125
 def mih2kmh(v):
-    return v*50292/3125
+    return v*25146/15625
 #length
 def mi2m(l):
     return l*201168/125
 def mi2km(l):
-    return l*50292/3125
+    return l*25146/15625
 def au2m(l):
     return l*149597870700
 def ly2m(l):
