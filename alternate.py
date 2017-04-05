@@ -30,5 +30,3 @@ def f2c(t):
     return (t-32)*5/9
 def c2k(t):
     return t+273.15
-while 1:
-    print(input("Use a function: "))
