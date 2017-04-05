@@ -6,6 +6,8 @@ def mih2ms(v):
     return v*1397/3125
 def mih2kmh(v):
     return v*25146/15625
+def kmh2ms(v):
+    return v*5/18
 #length
 def mi2m(l):
     return l*201168/125
