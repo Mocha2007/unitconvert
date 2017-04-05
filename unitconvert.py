@@ -12,5 +12,11 @@ def y2s(t):
     return n*31556952
 def atm2pa(p):
     return n*101325
+def f2k(t):
+    return (n+459.67)*5/9
+def f2c(t):
+    return (n-32)*5/9
+def c2k(t):
+    return n+273.15
 while 1:
     print(input("Use a function: "))
